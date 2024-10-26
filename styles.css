@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#menu {
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+
+.list-item {
+	padding: 20px 10px;
+	display: inline-block;
+	list-style: none;
+}
+.list-link {
+	color: #000000;
+	font-size: 20px;
+	line-height: 25px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.list-test {
+	background-color: black !important;
+}
+/* banner */
+.banner-container {
+	background-image: url("./images/fondo.jpg");
+	background-repeat: no-repeat;
+	padding: 120px 50px;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-top: 65px;
+}
+.banner-container__body-container {
+	max-width: 600px;
+	width: 100%;
+	margin: auto;
+}
+.banner-container__title {
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 50px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.banner-container__description {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.banner-container__button {
+	display: block;
+	max-width: 300px;
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	margin: 20px auto;
+}
+/* sobre nosotros container  */
+.about-section {
+	background-color: #000000;
+	margin: auto;
+	padding: 50px 20px;
+}
+.article-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1200px;
+}
+.about-us-title {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 45px;
+	padding-bottom: 20px;
+	font-family: "Roboto", sans-serif;
+}
+.article-containe_article-text-container {
+	margin-right: 30px;
+}
+.article-containe_article-text {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	max-width: 300px;
+}
+.article-container_image {
+	max-width: 300px;
+	height: 200px;
+}
+/* sobre nosotros container  */
+.card-section {
+	background-color: #000000;
+	padding-bottom: 50px;
+}
+.cards-container {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.card {
+	background-color: #ffffff;
+	padding: 30px 20px;
+	max-width: 300px;
+	border-radius: 10px;
+	position: relative;
+}
+.card-title {
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.card-description {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #202020;
+}
+
+.icon-container {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.icon-container i {
+	font-size: 30px;
+	color: orange;
+}
+
+.section-contact-us {
+	background-color: #000000;
+	padding: 50px 30px;
+}
+
+.section-contact-us .section-contact-us__container {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__description-container {
+	max-width: 600px;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__description-container h2 {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 45px;
+	padding-bottom: 20px;
+	font-family: "Roboto", sans-serif;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__description-container p {
+	font-family: "Roboto", sans-serif;
+	padding-bottom: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 25px;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container {
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 20px 30px;
+	margin-left: 30px;
+	width: 100%;
+}
+
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__container-labels {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__container-labels .section-contact-us__container__form-container__form__container-labels__input-container {
+	display: flex;
+	flex-direction: column;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__container-labels .section-contact-us__container__form-container__form__container-labels__input-container label {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__container-labels .section-contact-us__container__form-container__form__container-labels__input-container input {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 10px 15px;
+	margin: 0 10px;
+	border-radius: 20px;
+}
+
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__email-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__email-container label {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 30px 0;
+	display: inline-block;
+}
+
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__email-container input {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 10px 15px;
+	margin: 0 10px;
+	border-radius: 20px;
+}
+.section-contact-us .section-contact-us__container .section-contact-us__container__form-container .section-contact-us__container__form-container__form .section-contact-us__container__form-container__form__button-container button {
+	margin: 30px 0;
+	display: block;
+	width: 100%;
+	padding: 14px 0;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	background-color: blue;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+	.banner-container {
+		background-position: center;
+		padding: 80px 30px;
+	}
+}
+@media only screen and (max-width: 627px) {
+	.about-section {
+		padding: 20px;
+	}
+	.article-containe_article-text-container {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.article-container {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.banner-container {
+		padding: 20px;
+	}
+	.article-container_image {
+		max-width: 100%;
+	}
+}

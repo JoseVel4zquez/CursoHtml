@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mi primera pagina web</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+
+	<body>
+		<header class="header-container">
+			<nav class="header-container_menu">
+				<ul id="menu">
+					<li class="list-item">
+						<a class="list-link" href="#">Inicio</a>
+					</li>
+					<li class="list-item">
+						<a class="list-link" href="#">Sobre nosotros</a>
+					</li>
+					<li class="list-item">
+						<a class="list-link" href="#">Contactanos</a>
+					</li>
+				</ul>
+			</nav>
+			<section class="banner-container">
+				<article class="banner-container__body-container">
+					<h1 class="banner-container__title">Mi primer sitio web</h1>
+					<p class="banner-container__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint accusantium nobis corrupti quae rem modi soluta iure laborum incidunt expedita facilis, minus eius itaque facere perferendis, sunt animi cumque!</p>
+					<a class="banner-container__button" href="#">Conoce mas</a>
+				</article>
+			</section>
+		</header>
+		<main>
+			<section class="about-section" style="position: relative">
+				<article class="article-container">
+					<div class="article-containe_article-text-container">
+						<h2 class="about-us-title">Sobre nosotros</h2>
+						<p class="article-containe_article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sed dignissimos eaque suscipit! Quis illum sequi corporis dignissimos, similique quaerat, numquam cupiditate molestiae laboriosam mollitia modi ipsam aliquid nihil labore.</p>
+					</div>
+					<img class="article-container_image" src="./images/black-forest-3869476_1280.jpg" alt="Campo amplio en el bosque" />
+				</article>
+			</section>
+
+			<section class="card-section">
+				<article class="cards-container">
+					<div class="card">
+						<h2 class="card-title">Css</h2>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit, harum asperiores, quo deserunt earum suscipit cum accusantium odit a dolor ipsam consequuntur. Sint, vero! Voluptate vitae maiores ut repudiandae.</p>
+						<div class="icon-container">
+							<i class="fa-brands fa-css3-alt"></i>
+						</div>
+					</div>
+					<div class="card">
+						<h2 class="card-title">HTML</h2>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit, harum asperiores, quo deserunt earum suscipit cum accusantium odit a dolor ipsam consequuntur. Sint, vero! Voluptate vitae maiores ut repudiandae.</p>
+						<div class="icon-container">
+							<i class="fa-brands fa-html5"></i>
+						</div>
+					</div>
+					<div class="card">
+						<h2 class="card-title">Js</h2>
+						<p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit, harum asperiores, quo deserunt earum suscipit cum accusantium odit a dolor ipsam consequuntur. Sint, vero! Voluptate vitae maiores ut repudiandae.</p>
+						<div class="icon-container">
+							<i class="fa-brands fa-js"></i>
+						</div>
+					</div>
+				</article>
+			</section>
+
+			<section class="section-contact-us">
+				<article class="section-contact-us__container">
+					<div class="section-contact-us__container__description-container">
+						<h2>Contactactanos</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor labore explicabo reprehenderit aliquam error a molestiae perferendis necessitatibus, ex expedita? Accusamus vero magnam alias assumenda hic nemo incidunt cum.</p>
+					</div>
+					<div class="section-contact-us__container__form-container">
+						<form action="" class="section-contact-us__container__form-container__form">
+							<div class="section-contact-us__container__form-container__form__container-labels">
+								<div class="section-contact-us__container__form-container__form__container-labels__input-container">
+									<label for="">Nombre</label>
+									<input type="text" placeholder="Nombre" required />
+								</div>
+								<div class="section-contact-us__container__form-container__form__container-labels__input-container">
+									<label for="">Apellido</label>
+									<input type="text" placeholder="Apellido" required />
+								</div>
+							</div>
+							<div class="section-contact-us__container__form-container__form__email-container">
+								<label for="">Email</label>
+								<input type="email" placeholder="Email" required />
+							</div>
+							<div class="section-contact-us__container__form-container__form__button-container">
+								<button type="submit">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
