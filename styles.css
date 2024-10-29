@@ -264,6 +264,13 @@
 .paragraph-container {
 	width: 50%;
 }
+.text-footer {
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+}
 .paragraph-container p {
 	font-family: "Roboto", sans-serif;
 	color: #ffffff;
